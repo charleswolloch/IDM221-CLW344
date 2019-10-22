@@ -1,0 +1,19 @@
+*{
+    background: white;
+}
+
+
+
+header {
+    font-size: 100%;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding-bottom: 2em;
+}
+
+main {
+    color: black;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: white;
+}
