@@ -3,17 +3,32 @@
 }
 
 
+nav ul li {
+    text-align: center;
+    list-style: none;
+}
 
 header {
     font-size: 100%;
+    margin-top: 2em;
     margin-left: 4em;
     margin-right: 4em;
-    padding-bottom: 2em;
+    margin-bottom: 2em  ;
 }
+
 
 main {
     color: black;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
     background-color: white;
+}
+main h1 {
+    text-align: center;
+}
+
+footer {
+
+    text-align: center;
+    padding-bottom: 1em;
 }
