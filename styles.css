@@ -1,20 +1,50 @@
+@import 'normalize.css';
+
 *{
     background: white;
 }
 
-
+/**
+Main navigation
+*/
 nav ul li {
     text-align: center;
     list-style: none;
+    font-family: "theboldfont";
+    font-size: 2em;
+    display: inline;
+    
+    
+    
+}
+/**
+Change colors of navigation links
+*/
+a:visited {
+    color: black;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: purple;
 }
 
 header {
     font-size: 100%;
     margin-top: 1em;
-    margin-left: 4em;
-    margin-right: 4em;
     margin-bottom: 1em  ;
 }
+.sendup:hover {
+    color: purple;
+}
+
+body {
+font-size: 16px;
+text-align: center;
+}
+
 
 main {
     color: black;
@@ -22,9 +52,9 @@ main {
     margin-right: 3em;
     background-color: white;
 }
-main h1 {
+main div h1 {
     text-align: center;
-    font-family: monospace;
+    font-family: "theboldfont";
     font-size: 4em;
 }
 
@@ -34,16 +64,66 @@ footer {
     padding-bottom: 1em;
 }
 
+
+/**
+main page welcome  blurb
+*/
 #welcome {
     text-align: center;
-    font-size: 2em;
-    font-family: monospace;
+    font-size: 1.75em;
+    font-family: "roboto_regular";
+    line-height: 1.5em;
+
     
 }
 
+/**
+main page about me paragraphs
+*/
 .intro {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 2em;
-    margin-right: 2em;
+    font-family: "roboto_regular";
+    margin-left: .5em;
+    margin-right: .5em;
+    font-size: 110%;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+@font-face {
+font-family: "roboto_regular";
+src: url(roboto-regular-webfont.woff);
+src: url(roboto-regular-webfont.woff2);
+
+}
+
+@font-face {
+    font-family: "theboldfont";
+    src: url(theboldfont-webfont.woff);
+    src: url(theboldfont-webfont.woff2);
+}
+
+/**
+pic of self on home page
+*/
+#self {
+    max-width: 100%;
+}
+
+
+
+/**
+resume bullet listing
+*/
+.resume {
+    text-align: left;
+    line-height: 20px;
+    
+}
+/**
+resume header resizing and height shift
+*/
+
+.resumeheight {
+    line-height: 20px;
     font-size: 110%;
 }
