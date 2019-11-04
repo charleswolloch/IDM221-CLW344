@@ -93,13 +93,26 @@ main page about me paragraphs
 font-family: "roboto_regular";
 src: url(roboto-regular-webfont.woff);
 src: url(roboto-regular-webfont.woff2);
-
 }
 
 @font-face {
-    font-family: "theboldfont";
-    src: url(theboldfont-webfont.woff);
-    src: url(theboldfont-webfont.woff2);
+font-family: "roboto_italic";
+src: url(roboto-italic-webfont.woff);
+src: url(roboto-italic-webfont.woff2);
+}
+
+
+@font-face {
+font-family: "roboto_bold";
+src: url(roboto-bold-webfont.woff);
+src: url(roboto-bold-webfont.woff2);
+}
+
+
+@font-face {
+font-family: "theboldfont";
+src: url(theboldfont-webfont.woff);
+src: url(theboldfont-webfont.woff2);
 }
 
 /**
@@ -143,6 +156,11 @@ color: white;
     background-color: black;
 }
 
+#sendupinvert {
+    background-color: black;
+
+}
+
 .creations a:visited  {
     color: white;
 }
@@ -161,5 +179,9 @@ a:hover {
 }
 
 p.creations {
+    font-family: "roboto_regular";
     text-align: left;
+    font-size: 1.25em;
+    line-height: 1.5em;
+
     }
