@@ -42,6 +42,7 @@ nav ul li {
     display: inline-block;    
     padding: 0 .25rem;
 }
+
 /**
 Change colors of navigation links
 */
@@ -131,7 +132,6 @@ resume header resizing and height shift
 .resumeheader {
     line-height: 20px;
     font-size: 110%;
-    padding: 0;
 }
 
 /**
@@ -144,7 +144,7 @@ resume bullet listing
 }
 
 .wrapper {
-padding: 0 1rem;
+padding: 0 .5rem;
 margin-bottom: 2rem;
 
 }
