@@ -1,9 +1,11 @@
 @import 'normalize.css';
 
 *{
-    background: white;
+    background: black;
     box-sizing: border-box;
+    color: white;
 }
+
 
 @font-face {
     font-family: "roboto_regular";
@@ -31,7 +33,7 @@
     src: url(theboldfont-webfont.woff2);
     }
     
-/**
+    /**
 Main navigation
 */
 nav ul li {
@@ -42,14 +44,15 @@ nav ul li {
     display: inline-block;    
     padding: 0 .25rem;
 }
+
 /**
 Change colors of navigation links
 */
 a:visited {
-    color: black;
+    color: white;
 }
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -65,86 +68,38 @@ font-size: 16px;
 text-align: center;
 }
 
-
-main {
-    color: black;
-    margin-left: 3em;
-    margin-right: 3em;
-    background-color: white;
-}
-main div h1 {
-    text-align: center;
-    font-family: "theboldfont";
-    font-size: 4em;
-}
-
-footer {
-
-    text-align: center;
-    padding-bottom: 1em;
-}
-
 #sendup {
     padding: .5em .75em;
-    border: 2px solid black;
+    border: 2px solid white;
     text-transform: uppercase;
+
 }
 
-/**
-main page welcome  blurb
-*/
-#welcome {
-    text-align: center;
-    font-size: 1.75em;
+a:visited  {
+    color: white;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.logoresize {
+    max-width: 75%;
+    background-color: black;
+
+}
+
+p {
     font-family: "roboto_regular";
-    line-height: 1.5em;
-    margin: 1 auto;
-    
-}
-
-/**
-main page about me paragraphs
-*/
-.intro {
-    font-family: "roboto_regular";
-    margin: 1 auto;
-    font-size: 110%;
     text-align: left;
+    font-size: 1.25em;
     line-height: 1.5em;
-}
-
-
-/**
-pic of self on home page
-*/
-#self {
-    max-width: 100%;
-    border: 2px solid black;
-    box-shadow: 3px 3px 3px black;
-}
-
-
-/**
-resume header resizing and height shift
-*/
-
-.resumeheader {
-    line-height: 20px;
-    font-size: 110%;
-    padding: 0;
-}
-
-/**
-resume bullet listing
-*/
-.resume {
-    text-align: left;
-    line-height: 20px;
-    
+    margin: 0 1rem;
+    padding: 0 1rem;
 }
 
 .wrapper {
-padding: 0 1rem;
-margin-bottom: 2rem;
-
+border: 1px solid white;
+margin: 0 .5rem 1rem;
 }
