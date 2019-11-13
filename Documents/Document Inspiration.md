@@ -98,7 +98,8 @@ Docent, May to June 2017
 ### Skills
 
 * Coding: HTML, CSS, Arduino
-* Software: Adobe Illustrator, Adobe Photoshop, Adobe Premiere Pro, Sketch, Flinto 
+* Software: Adobe Creative Suite, Sketch, Flinto, InVision
+* Skills: Photography, 3D Printing, Laser Cutting, Sewing 
 * Languages: Hebrew (fluent)
 
 
