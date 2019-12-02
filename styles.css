@@ -31,6 +31,8 @@
     src: url(theboldfont-webfont.woff2);
     }
     
+
+  
 /**
 Main navigation
 */
@@ -41,6 +43,9 @@ nav ul li {
     font-size: 2em;
     display: inline-block;    
 }
+
+
+
 
 /**
 Change colors of navigation links
@@ -58,6 +63,7 @@ header {
     padding: 1em 0 0 0;
     font-size: 100%;
     margin: 0;
+    
 }
 
 body {
@@ -79,9 +85,12 @@ main div h1 {
 }
 
 footer {
-
     text-align: center;
-    padding-bottom: 1em;
+}
+
+#footlogo{
+    padding: 2em 0 0 0;
+    max-width: 40%;
 }
 
 #sendup {
