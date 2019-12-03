@@ -125,6 +125,11 @@ main page welcome  blurb
     margin: 1em 0 .25em 0;
 }
 
+.professionalresume {
+    font-size: 2em;
+    margin: .5em 0 .25em 0;
+}
+
 /**
 main page about me paragraphs
 */
@@ -152,8 +157,11 @@ resume header resizing and height shift
 */
 
 .resumeheader {
-    line-height: 20px;
-    font-size: 110%;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: "roboto_regular";
+    line-height: 1.1em;
+    margin: 1 auto;
 }
 
 /**
@@ -161,8 +169,10 @@ resume bullet listing
 */
 .resume {
     text-align: left;
-    line-height: 20px;
-    
+    font-size: 1em;
+    font-family: "roboto_regular";
+    line-height: 1.1em;
+    margin: 1 auto;
 }
 
 .wrapper {
