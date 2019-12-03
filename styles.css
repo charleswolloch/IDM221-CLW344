@@ -7,28 +7,28 @@
 
 @font-face {
     font-family: "roboto_regular";
-    src: url(roboto-regular-webfont.woff);
-    src: url(roboto-regular-webfont.woff2);
+    src: url(fonts/roboto-regular-webfont.woff);
+    src: url(fonts/roboto-regular-webfont.woff2);
     }
     
 @font-face {
     font-family: "roboto_italic";
-    src: url(roboto-italic-webfont.woff);
-    src: url(roboto-italic-webfont.woff2);
+    src: url(fonts/roboto-italic-webfont.woff);
+    src: url(fonts/roboto-italic-webfont.woff2);
     }
     
     
 @font-face {
     font-family: "roboto_bold";
-    src: url(roboto-bold-webfont.woff);
-    src: url(roboto-bold-webfont.woff2);
+    src: url(fonts/roboto-bold-webfont.woff);
+    src: url(fonts/roboto-bold-webfont.woff2);
     }
     
     
 @font-face {
     font-family: "theboldfont";
-    src: url(theboldfont-webfont.woff);
-    src: url(theboldfont-webfont.woff2);
+    src: url(fonts/theboldfont-webfont.woff);
+    src: url(fonts/theboldfont-webfont.woff2);
     }
     
 
@@ -41,7 +41,13 @@ nav ul li {
     list-style: none;
     font-family: "theboldfont";
     font-size: 2em;
-    display: inline-block;    
+    
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 2em 0;
 }
 
 
@@ -89,11 +95,14 @@ footer {
 }
 
 #footlogo{
+    
     padding: 2em 0 0 0;
-    max-width: 40%;
+    width: 40%;
 }
 
 #sendup {
+    margin: 0 auto;
+    width: 40%;
     padding: .5em .75em;
     border: 2px solid black;
     text-transform: uppercase;
@@ -102,13 +111,18 @@ footer {
 /**
 main page welcome  blurb
 */
-#welcome {
+.welcome {
     text-align: center;
     font-size: 1.75em;
     font-family: "roboto_regular";
-    line-height: 1.5em;
+    line-height: 1.1em;
     margin: 1 auto;
     
+}
+
+.aboutme {
+    font-size: 3em;
+    margin: 1em 0 .25em 0;
 }
 
 /**
@@ -116,7 +130,7 @@ main page about me paragraphs
 */
 .intro {
     font-family: "roboto_regular";
-    margin: 1 auto;
+    margin: .75 auto;
     font-size: 110%;
     text-align: left;
     line-height: 1.5em;
