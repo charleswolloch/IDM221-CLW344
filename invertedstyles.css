@@ -33,13 +33,16 @@
     src: url(fonts/theboldfont-webfont.woff2);
     }
     
+
+.theboldfont { 
+        font-family: "theboldfont";
+    }    
     /**
 Main navigation
 */
 nav ul li {
     text-align: center;
     list-style: none;
-    font-family: "theboldfont";
     font-size: 2em;
     
 
@@ -71,6 +74,8 @@ header {
 body {
 font-size: 16px;
 text-align: center;
+font-family: "roboto_regular";
+
 }
 
 footer {
@@ -107,7 +112,6 @@ a:link {
 }
 
 p {
-    font-family: "roboto_regular";
     text-align: left;
     font-size: 1.25em;
     line-height: 1.2em;
