@@ -9,28 +9,28 @@
 
 @font-face {
     font-family: "roboto_regular";
-    src: url(fonts/roboto-regular-webfont.woff) format("woff");
-    src: url(fonts/roboto-regular-webfont.woff2) format("woff2");
+    src: url(fonts/roboto-regular-webfont.woff) format("woff"),
+    url(fonts/roboto-regular-webfont.woff2) format("woff2");
     }
     
 @font-face {
     font-family: "roboto_italic";
-    src: url(fonts/roboto-italic-webfont.woff) format("woff");
-    src: url(fonts/roboto-italic-webfont.woff2) format("woff2");
+    src: url(fonts/roboto-italic-webfont.woff) format("woff"),
+    url(fonts/roboto-italic-webfont.woff2) format("woff2");
     }
     
     
 @font-face {
     font-family: "roboto_bold";
-    src: url(fonts/roboto-bold-webfont.woff) format("woff");
-    src: url(fonts/roboto-bold-webfont.woff2) format("woff2");
+    src: url(fonts/roboto-bold-webfont.woff) format("woff"),
+    url(fonts/roboto-bold-webfont.woff2) format("woff2");
     }
     
     
 @font-face {
     font-family: "theboldfont";
-    src: url(fonts/theboldfont-webfont.woff) format("woff");
-    src: url(fonts/theboldfont-webfont.woff2) format("woff2");
+    src: url(fonts/theboldfont-webfont.woff) format("woff"),
+    url(fonts/theboldfont-webfont.woff2) format("woff2");
     }
     
 
@@ -113,7 +113,7 @@ a:link {
 
 p {
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.1em;
     line-height: 1.2em;
     margin: 0 1rem;
     padding: 0 .5rem;
